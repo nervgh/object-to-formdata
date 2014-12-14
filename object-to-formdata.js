@@ -1,5 +1,5 @@
 /*
- object-to-formdata v0.1.1
+ object-to-formdata v0.1.2
  https://github.com/nervgh/object-to-formdata
 */
 (function(window) {
@@ -63,6 +63,7 @@
                 case 'File':
                     var name = toName(path);
                     form.append(name, value);
+                    return true; // prevent step into
                 case 'Blob':
                     var name = toName(path);
                     form.append(name, value, value.name);

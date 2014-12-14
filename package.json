@@ -1,6 +1,6 @@
 {
     "name": "object-to-formdata",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "homepage": "https://github.com/nervgh/object-to-formdata",
     "description": "Converts json-like object with File, FileList, Blob to FormData object",
     "author": {

@@ -59,6 +59,7 @@
                 case 'File':
                     var name = toName(path);
                     form.append(name, value);
+                    return true; // prevent step into
                 case 'Blob':
                     var name = toName(path);
                     form.append(name, value, value.name);
