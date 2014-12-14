@@ -1,4 +1,4 @@
-# Object.toFromData()
+# Object.toFormData()
 
 ## About
 Converts json-like object with `[File]`, `[FileList]`, `[Blob]` to `[FormData]` object
@@ -9,7 +9,7 @@ Converts json-like object with `[File]`, `[FileList]`, `[Blob]` to `[FormData]` 
 ## Syntax
 ```js
 // convert object to [FormData]
-var form = Object.toFromData(object /*{Object|Array}*/);
+var form = Object.toFormData(object /*{Object|Array}*/);
 
 // send this object
 var xhr = new XMLHttpRequest();
