@@ -1,5 +1,8 @@
 # Object.toFormData()
 
+## Deprecated
+See https://github.com/nervgh/recursive-iterator/wiki/Cookbook-(es6)#to-form-data
+
 ## About
 Converts json-like object with `[File]`, `[FileList]`, `[Blob]` to `[FormData]` object
 
